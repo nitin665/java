@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class greater{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt;
+    if (a>b){System.out.println("num1 is greateer than num2");}
+    else if (b>a){System.out.println("num2 is greateer than num1");}
+    else{System.out.println("equal");}
+  }}

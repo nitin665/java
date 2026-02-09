@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class result{
+  public static void main (String args[]){
+    Scanner sc= new Scanner(System.in);
+    String name=sc.next();
+    int a;
+    a= sc.nextInt();
+    int b=sc.nextInt();
+    int c=sc.nextInt();
+    int d=sc.nextInt();
+    int e=b+c+d;
+   
+    System.out.println("name "+name);
+    System.out.println("rollno  "+a);
+    System.out.println("total "+e);
+     if( b >40 && c >40 && d >40){
+      System.out.println("pass");}
+    else{
+      System.out.println("fail");}
+    
+  }
+}
